@@ -1,0 +1,9 @@
+<div class='message'>
+  <p><%=@question%></p>
+  <p class='title'>-You</p>
+</div>
+<div id='response' class='message'>
+  <p><strong><%=@answer%></strong></p>
+  <p class='title'>-Your Coach</p>
+</div>
+<%= link_to 'Ask a new question', ask_path %>
