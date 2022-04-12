@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @question = params[:answer]
+    @question = params[:question]
     # raise
     @answer = calc_answer(@question)
   end
@@ -16,5 +16,8 @@ class QuestionsController < ApplicationController
     else
       "I don't care, get dressed and go to work!"
     end
+  end
+
+  def home
   end
 end

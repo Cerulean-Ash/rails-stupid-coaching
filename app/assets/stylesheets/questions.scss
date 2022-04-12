@@ -18,9 +18,38 @@ body {
   p {
     line-height: 2;
     margin: 0 0 0 12px;
+    font-size: 20px;
   }
 }
 
 #response {
   background-color: #ffffe1;
+}
+
+
+label {
+  display: block;
+  padding-bottom: 12px;
+  }
+
+
+  .textbox-with-button {
+    display: flex;
+    .submit-btn {
+      font-size: 20px;
+      padding: 8px;
+      background-color: #467bb9;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      color: white;
+    }
+    .text-input {
+      flex-grow: 2;
+      border-radius: 5px 0px 0px 5px;
+      border: 1px solid rgb(118, 118, 118);
+    }
+  }
+
+.container {
+  margin: 12px;
 }
